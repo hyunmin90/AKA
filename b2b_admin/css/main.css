@@ -1,0 +1,827 @@
+/*Main top nav-bar*/
+
+button
+{
+  border-radius:0px !important;
+}
+
+.navbar-inverse 
+{   
+  background-image:url('../images/bg_top.jpg');
+  background-size: cover;
+  height: 13rem;
+  padding-top:1rem;
+  border-color:white !important;
+}
+.navbar-nav
+{
+  float:right!important;
+}
+.navbar-inverse .navbar-brand 
+{
+ color: white; 
+}
+
+.navbar-inverse:hover .navbar-brand:hover 
+{
+ color: white; 
+}
+
+.navbar-nav>li>a 
+{
+  font-weight: bold;
+  color: white;
+	
+}
+
+@media (max-width: 1280px) 
+{	
+	.bg-image
+	{
+		background: url('/images/bg.jpg');
+	  	background-repeat:no-repeat;  
+	  	background-position:center center center; 
+	  	height:700px;	  	
+	  	/*background-size: initial;  	*/
+	  	background-size: cover;
+	  	/*background-size: 100% 100%;  	*/
+	}
+	.bg-logo
+	{
+		background: url('/images/logo_yonsei_big.png');
+	  	background-repeat:no-repeat;
+	  	background-position:center center;
+	  	background-size: 45% 70%;  	
+	  	height:700px;
+	  	margin-top: -100px;
+	}
+}
+
+#logo
+{
+  margin-top: 3rem;
+  width: 198px;
+  height: 58px;
+  background-image: url("/images/logo_yonsei.png");
+  background-color: rgba(0, 0, 0, 0.40);;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+ color: #fff; 
+}
+
+td
+{
+color: grey;
+}
+
+.control-label
+{
+  color:grey;
+  background-color:rgb(225, 225, 226);
+
+}
+
+/*Main top nav-bar end*/
+
+
+/*Welcome Coupon page*/
+.font-white
+{
+	color:#fff;
+}
+
+.coupon-list-top-margin
+{
+	margin-top: 170px;
+}
+
+.coupon-top-margin
+{
+	margin-top: 30px;
+}
+
+.coupon-bottom-margin
+{
+	margin-bottom: 50px;
+}
+
+#col-name
+{
+  background-color: #d4dae1;
+  height: 40px;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+.glyphicon.glyphicon-cog.update,.glyphicon.glyphicon-search.detail
+{
+  border-style: solid;
+  color: white;
+  background-color: #73c9bc;
+  border-color: transparent;
+}
+
+span.glyphicon.glyphicon-cog
+{
+    margin-left: 8px;
+
+}
+
+#col-value
+{
+  height: 40px;
+  font-size:20px;
+  color: #f05c6f;
+  text-align: center;
+  line-height: 40px;
+  font-weight:400;
+  border-bottom-style: solid;
+  border-color:#d6d6d6;
+  border-bottom-width: 1px;
+}
+
+.btn-coupon-login 
+{ 
+  border-radius:0px;
+  color: #FFFFFF; 
+  background-color: #73c9bc; 
+  border-width:1px;
+  border-color: #48a395; 
+} 
+#work_body,#close_body
+{
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #d6d6d6;
+}
+
+body > div.container.coupon-list-top-margin > div:nth-child(4) > div > ul > li.active>a
+{
+  color: #f05c6f;
+  font-size: 16px;
+  text-align: center;
+}
+body > div.container.coupon-list-top-margin > div:nth-child(2) > div
+{
+  padding-bottom:20px;
+}
+.table > thead > tr > th
+{
+  text-align:center!important;
+}
+#work > table > thead > tr > th:nth-child(1),
+#close > table > thead > tr > th:nth-child(1)
+{
+  width:77px!important;
+}
+
+.nav-tabs>li>a
+{
+  padding-top: 4px;
+  border-radius:0px;
+  font-size:16px;
+  color:#868686;
+  text-align: center;
+}
+
+body > div.container.coupon-list-top-margin > div:nth-child(2) > div > a
+{
+  width: 242px;
+  height: 40px;
+  background-color: #f05c6f;
+  color: white;
+  border-color: #c4263a;
+  border-width: 1px;
+  border-radius: 0px!important;
+}
+
+body > div.container.coupon-list-top-margin > div:nth-child(2) > div
+{
+  padding-top:40px;
+}
+
+.nav-tabs > li 
+{
+  background-color:#d4dae1;
+}
+
+.nav-tabs>li
+{
+  margin-left: -2px;
+  width:144px;
+  height:30px;
+  border-radius:0px;
+}
+body > div.container.coupon-list-top-margin > div:nth-child(4) > div > ul > li:not(.active)>a
+{
+  height:30px;
+  width:100%;
+}
+
+body > div.container.coupon-list-top-margin > div:nth-child(4) > div > ul > li:not(.active)
+{
+  margin-top:10px;
+}
+body > div.container.coupon-list-top-margin > div:nth-child(4) > div > ul
+{
+  padding-left:3rem;
+}
+#close > table,#work > table
+{
+  margin-top:40px;
+}
+
+body > div.container.coupon-list-top-margin > div:nth-child(4) > div > ul > li.active
+{
+    background-color:white;
+}
+body > div.container.coupon-list-top-margin > div:nth-child(4) > div > ul > li.active >a
+{
+  height:41px;
+}
+
+.font-aka
+{
+	color: #f05e22;
+}
+
+/*Welcome Coupon page End*/
+
+/*Detail Page*/
+
+body > div > div:nth-child(1) > div > h3 > span
+{
+  padding-right: 14px;
+  font-size: 14pt;
+  color: rgba(40, 189, 166, 0.87);
+}
+body > div > div:nth-child(1) > div > h3
+{
+  margin-top:45px;
+  font-size:14pt;
+}
+body > div > div:nth-child(1)
+{
+  padding-bottom:20px;
+}
+#update
+{
+  background-color: #f05c6f;
+  width: 68px;
+  line-height: 0px;
+  height: 22px;
+  font-size: 12px;
+  padding-left: 7px;
+  border-color: #f05c6f;
+  
+}
+body > div > div:nth-child(3)
+{
+  margin-bottom:20px;
+}
+
+#work_body > tr > td,#fm > div > table > thead > tr > th,#work > table > thead > tr > th,#close > table > thead > tr > th
+{
+  border-color:#f1f1f1;
+}
+
+
+/*Detail Page end*/
+
+
+
+/*Create page*/
+#wrap-bottom
+{
+  border-color: rgb(226, 215, 215) !important;
+  margin-top: 2rem;
+  border-top: solid;
+  width: 895px;
+  border-width: 1px;
+  margin-left: 1rem;
+}
+#wrap-bottom > div
+{
+  margin-top:20px!important;
+  margin-left: 55.333333%;
+}
+
+#fm > div:nth-child(5) > div:nth-child(5),#fm > div:nth-child(5) > div.col-xs-4
+{
+  width: 33.33333333%!important;
+}
+
+#cancel
+{
+  width: 11rem;
+  margin-right: 5px;
+  background-color: #73c9bc;
+  border-color: #48a395;
+  border-radius:0px;
+}
+#submit
+{
+  background-color: #f05c6f;
+  color: white;
+  border-color: #c4263a;
+  width:17rem;
+  border-radius:0px;
+
+}
+
+.label-warning
+{
+  background-color: rgb(161, 161, 161) !important;
+  border-radius: 0px !important;
+}
+
+body > div > div.row > div > div.col-xs-12.col-xs-offset-2 > div > div > div > div.box1.col-md-6.filtered > span > button
+{
+  border-radius: 0px;
+  background-color: #f05c6f;
+  color: white;
+  border-color: #c4263a;
+}
+
+.filter
+{
+  border-radius: 0px; 
+}
+
+/*Create page inner Table edit*/
+
+#bootstrap-duallistbox-nonselected-list_member,#bootstrap-duallistbox-selected-list_member
+{
+  width:99.7% !important;
+
+}
+
+body > div > div.row > div > div.col-xs-12.col-xs-offset-2 > div > div > div > div.box1.col-md-6 > label,
+body > div > div.row > div > div.col-xs-12.col-xs-offset-2 > div > div > div > div.box2.col-md-6 > label
+{
+  text-align: left !important;
+}
+
+body > div > div.row > div > div.col-xs-12.col-xs-offset-2 > div > div > div > div.box1.col-md-6 > input
+{
+  width:100%;
+
+}
+
+body > div > div.row > div > div.col-xs-12.col-xs-offset-2 > div > div > div > div.box2.col-md-6 > input
+{
+  width:100%;
+}
+
+
+
+#bootstrap-duallistbox-nonselected-list_member > option:nth-child(1)
+{
+  <!--padding-top:1rem;-->
+}
+
+#add_member
+{
+  background-color: white;
+  border-color: rgb(210, 210, 210);
+  border-style: solid;
+  border-width: 1.6px;
+  width: 6rem;
+  margin-left: 23rem;
+}
+
+
+/*Create page End*/
+
+ 
+#navbar > ul > li.active > a,
+.navbar-inverse .navbar-nav>li>a
+{
+  font-size:16px;
+  font-weight:100;
+}
+
+
+.btn-coupon-login:hover, 
+.btn-coupon-login:focus, 
+.btn-coupon-login:active, 
+.btn-coupon-login.active, 
+.open .dropdown-toggle.btn-coupon-login 
+{ 
+  color: #FFFFFF; 
+  background-color: rgba(40, 189, 166, 0.87); 
+  border-color: rgba(40, 189, 166, 0.87); 
+} 
+ 
+.btn-coupon-login:active, 
+.btn-coupon-login.active, 
+.open .dropdown-toggle.btn-coupon-login 
+{ 
+  background-image: none; 
+} 
+ 
+.btn-coupon-login.disabled, 
+.btn-coupon-login[disabled], 
+fieldset[disabled] .btn-coupon-login, 
+.btn-coupon-login.disabled:hover, 
+.btn-coupon-login[disabled]:hover, 
+fieldset[disabled] .btn-coupon-login:hover, 
+.btn-coupon-login.disabled:focus, 
+.btn-coupon-login[disabled]:focus, 
+fieldset[disabled] .btn-coupon-login:focus, 
+.btn-coupon-login.disabled:active, 
+.btn-coupon-login[disabled]:active, 
+fieldset[disabled] .btn-coupon-login:active, 
+.btn-coupon-login.disabled.active, 
+.btn-coupon-login[disabled].active, 
+fieldset[disabled] .btn-coupon-login.active 
+{ 
+  background-color: #F05E22; 
+  border-color: #F05E22; 
+} 
+ 
+.btn-coupon-login .badge 
+{ 
+  color: #F05E22; 
+  background-color: #FFFFFF; 
+}
+
+li.active > a> #underline1
+{
+  display:inline-block;
+  border-bottom:1px solid rgb(221, 26, 26);
+  padding-bottom:2px;
+  width: 6rem;
+  position: absolute;
+  padding-top: 21px;
+}
+li.active > a> #underline2
+{
+  display:inline-block;
+  border-bottom:1px solid rgb(221, 26, 26);
+  padding-bottom:2px;
+  width: 4.4rem;
+  position: absolute;
+  padding-top: 21px;
+}
+.navbar-brand
+{
+  font-weight: 100;
+  font-size: 30px !important;
+}
+.assignment-table
+{
+  text-align: center;
+
+}
+
+
+/*Update content*/
+
+textarea 
+{
+  resize: none;
+}
+#work > table > thead > tr,#close > table > thead > tr
+{
+  background-color:#f1f1f1;
+}
+
+body > div.container.admin-container > div.col-xs-12
+{ 
+  padding-left:0rem;
+  margin-left:0rem;
+}
+
+.form-group
+{
+  margin-bottom:30px;
+}
+#membertable > table
+{
+  margin-top:20px;
+}
+
+#startdatepickid,#duedatepickid,#fm > div:nth-child(6) > div.col-xs-3 > div,#fm > div:nth-child(6) > div.col-xs-4 > div
+{
+  margin-bottom:0px !important;
+}
+body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box1.col-md-6 > div:nth-child(6)
+{
+  margin-top:10px!important;
+  margin-bottom: 40px;
+}
+
+
+#startdatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(2),#duedatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(2)
+{
+  font-size:8px !important;
+  color:#FFF;
+}
+
+thead
+{
+  background-color: #f1f1f1;
+}
+
+#fm > div:nth-child(2) > div,#fm > div:nth-child(3) > div,#fm > div:nth-child(5) > div,#fm > div:nth-child(1) > div,#fm > div:nth-child(4) > div
+{
+  width:73%!important;
+}
+#name
+{ 
+  
+  margin-right:20px;
+  color: #999;
+  font-size: 16px;
+  height:34px!important;
+  font-weight: bold;
+}
+
+#msgeditor
+{ 
+  margin-right:20px;
+  color: #999;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 29px;
+  height:74px;
+}
+
+#description
+{
+  margin-right:20px;
+  color: #999;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 49px;
+  height: 74px;
+}
+
+#members
+{
+  color: #999;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 29rem;
+  height:300px;
+  width: 171px;
+  margin-left: -3.5rem;
+  margin-right: 20px;
+}
+
+#category
+{
+  margin-right:20px;
+  color: #999;
+  font-size: 16px;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+#membertable
+{
+  color: #999;
+  font-size: 16px;
+}
+
+#date
+{
+  color: #999;
+  font-size: 16px;
+  line-height: 26rem;
+  height: 29rem;
+  margin-right: 30px;
+}
+.form-control,#fm > div:nth-child(5) > div,div.datepicker-days > table > thead > tr:nth-child(1)
+{
+  font-size:14px!important;
+  font-weight:300!important;
+  color:#999;
+}
+#fm > div:nth-child(7) > div
+{ 
+  font-size:14px;
+  color:#999;
+}
+
+
+#deactivate
+{
+  background-color:rgba(40, 189, 166, 0.87);
+  border-color:rgba(40, 189, 166, 0.87);
+}
+
+
+label
+{
+  text-align:center!important;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover 
+{
+ color: white; 
+ background-color: transparent ;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand
+{
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+  margin-left: 21rem;
+}
+
+#deactivate
+{
+  background-color: #f05c6f;
+  border-color: #c4263a;
+  font-size: 13px;
+  height: 22px;
+  width: 88px;
+}
+#reactivate
+{
+  background-color: white;
+  border-color: #c4263a;
+  font-size: 13px;
+  height: 22px;
+  width: 88px;
+  color: #f05c6f;
+}
+
+.datepicker td, .datepicker th
+{
+  width:30px!important;
+  height:22px!important;
+
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus 
+{
+color: white;
+background-color: transparent;
+border-color:red;
+}
+
+.container
+{
+  width: 950px!important;
+}
+
+#membertable
+{
+  border-top-style: solid;
+  width: 904px;
+  border-top-width: 1px;
+  border-color: rgb(207, 204, 204);
+}
+
+body > div.container.admin-container > div:nth-child(3) > div
+{
+  margin-left: 38.333333%;
+}
+
+#fm > div:nth-child(8) > div.col-xs-3
+{
+ margin-left: 1rem;
+}
+
+/*Calendar*/
+#startdatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(1),
+#duedatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(1)
+{
+  
+  background-color:white;
+}
+#startdatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(2),
+#duedatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(2)
+{
+  background-color:rgba(123, 123, 123, 0.86);
+  color:white;
+}
+
+#duedatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch,#startdatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch,#duedatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch,#startdatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(1) > th.datepicker-switch
+{
+  font-size:14px;
+  color:#999;
+  font-weight:500;
+}
+
+#fm > div:nth-child(7) > div > label:nth-child(1),#fm > div:nth-child(7) > div > label:nth-child(2),#fm > div:nth-child(5) > div > label:nth-child(1),#fm > div:nth-child(5) > div > label:nth-child(2)
+{
+  padding-right: 25px;
+}
+
+.datepicker th 
+{
+  -webkit-border-radius: 0px!important; 
+  -moz-border-radius: 0px!important;
+  border-radius: 0px!important; 
+  border-radius: 0px !important;
+}
+
+#startdatepickid > div > div > div.datepicker-days > table > tbody > tr > td,
+#duedatepickid > div > div > div.datepicker-days > table > tbody > tr > td
+{
+  border-style: solid;
+  border-color: #D5D2D2; 
+  border-width: 1.4px;
+}
+#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(2) > td:nth-child(1),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(3) > td:nth-child(1),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(4) > td:nth-child(1),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(5) > td:nth-child(1),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(6) > td:nth-child(1),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(1) > td:nth-child(1),#duedatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(2) > td:nth-child(1),#duedatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(3) > td:nth-child(1),#duedatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(4) > td:nth-child(1),#duedatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(5) > td:nth-child(1)
+{
+  color:#f05c6f;
+}
+
+#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(1) > td:nth-child(7),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(2) > td:nth-child(7),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(3) > td:nth-child(7),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(4) > td.active.day,#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(5) > td:nth-child(7),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(6) > td:nth-child(7),#startdatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(4) > td:nth-child(7),#duedatepickid > div > div > div.datepicker-days > ttbody > tr:nth-child(1) > td:nth-child(7),#duedatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(2) > td:nth-child(7),#duedatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(3) > td:nth-child(7),#duedatepickid > div > div > div.datepicker-days > table > tbody > tr:nth-child(4) > td:nth-child(7)
+{
+  color:#3c77d4;
+}
+
+.old.day
+{
+  color:#999999!important;
+}
+
+.new.day{
+  background-color: rgb(232, 232, 232);
+  border-radius: 0px;
+  color: rgb(232, 232, 232) !important;
+}
+#startdatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(2) > th:nth-child(1), #duedatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(2) > th:nth-child(1)
+{
+  background-color: #f05c6f;
+}
+body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box2.col-md-6.filtered > span > button
+{
+  background-color: rgb(239, 88, 134);
+  border-color: #c4263a;
+  color:white;
+}
+
+body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box1.col-md-6 > div.btn-group.buttons > button.btn.moveall.btn-default,body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box1.col-md-6 > div.btn-group.buttons > button.btn.move.btn-default,body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box2.col-md-6 > div > button.btn.remove.btn-default,body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box2.col-md-6 > div > button.btn.removeall.btn-default
+{
+  background-color:rgb(225, 225, 226);
+}
+
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover 
+{
+  background-color: darkgrey;
+  background-image: -moz-linear-gradient(top, #9B9B9B, #A09E9E)!important;
+  background-image: -ms-linear-gradient(top, #9B9B9B, #A09E9E)!important;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc))!important;
+  background-image: -webkit-linear-gradient(top, #9B9B9B, #A09E9E)!important;
+  background-image: -o-linear-gradient(top, #9B9B9B, #A09E9E)!important;
+  background-image: linear-gradient(top, #0088cc, #0044cc)!important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#fm
+{
+  width:980px;
+}
+#fm > div:nth-child(6) > div > div.col-xs-3
+{
+  margin-left: 2rem;
+}
+#fm > div:nth-child(5) > div > div > label:nth-child(1)
+{
+  margin-left: 1rem;
+}
+
+#startlabel
+{
+  font-size: 14px;
+  color: #393939;
+  font-weight: bold;
+  margin-left:9rem;
+}
+#closelabel
+{
+  font-size: 14px;
+  color: #393939;
+  font-weight: bold;
+  margin-left: 22rem;;
+}
+#fm > div:nth-child(6) > div.col-xs-3
+{
+  margin-left: 1rem;
+}
+
+.form-control
+{
+  border-radius:0px;
+}
+
