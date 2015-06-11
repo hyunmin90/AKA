@@ -31,10 +31,10 @@ class Welcome extends CI_Controller {
 		}
 		else 
 		{
-			$nav['page'] = '';
-			$this->load->view('head',$nav);
+			
+			$this->load->view('loginhead');
 			$this->load->view('login');
-			$this->load->view('footer');
+			//$this->load->view('footer');
 
 			$js['page'] = 'welcome';
 			$this->load->view('/jquery/js', $js);

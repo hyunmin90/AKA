@@ -47,8 +47,8 @@
           <!-- Active Date -->
             <div class="form-group ">
               <label class="col-xs-2 control-label" id="date" >Date</label>
-              <label id="startlabel">start</label>
-              <label id="closelabel">close</label><br>
+              <label id="update-startlabel">start</label>
+              <label id="update-closelabel">close</label><br>
               <div class="col-xs-3">
                 <div class="form-group ">
                   <div class="col-xs-12">

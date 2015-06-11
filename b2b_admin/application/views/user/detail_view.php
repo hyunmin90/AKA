@@ -1,11 +1,8 @@
-<div class="container coupon-list-top-margin">
+<div class="container coupon-list-top-margin detailview">
 
   <div class="row">
-    <div class="col-md-2">
-      &nbsp;
-    </div>
     
-    <div class="col-md-10">
+    <div class="col-xs-12">
       
       <h3 class="text-left"><b><?php echo $data[0]['name'] . " (" . $data[0]['email'] . ")"; ?></b></h3>
       
@@ -23,7 +20,7 @@
                 <th class="text-center" style="width:150px;">Viewer Page</th>
               </tr>
             </thead>
-            <tbody id="close_body">
+            <tbody id="close_body" class='detail_body'>
               <?php
               foreach ($data as $key => $value) 
               {
@@ -33,9 +30,9 @@
                   <td class="text-center"><?php echo $value['summary']; ?></td>
                   <td class="text-center"><?php echo $value['start_date']; ?></td>
                   <td class="text-center"><?php echo $value['close_date']; ?></td>
-                  <td class="text-center"><?php if ($value['active'] == '0') {echo "Unsubmitted";} else { echo "Submitted";} ?></td>
+                  <td class="text-center"><?php if ($value['active'] == '0') {echo "<span class='unsubmitted'></span>Unsubmitted";} else { echo "<span class='glyphicon glyphicon-ok-circle' aria-hidden='true'></span>Submitted";} ?></td>
                   <td class="text-center"><?php echo $value['active_date']; ?></td>
-                  <td class="text-center"><?php if ($value['active'] == '0') {echo "--";} else if ($value['wrinting_status'] == '0') { echo "On-Going";} else { echo "Done";} ?></td>
+                  <td class="text-center"><?php if ($value['active'] == '0') {echo "--";} else if ($value['wrinting_status'] == '0') { echo "On-Going";} else { echo "<span class='glyphicon glyphicon-ok-circle' aria-hidden='true'></span>Done";} ?></td>
                   <td class="text-center">
                     <?php if(!empty($value['upload_file'])) { echo '<a href="http://admin.edgewritings.com/download/decodeFile/'.$value['writing_id'].'/'.$value['upload_file'].'" class="btn btn-primary btn-sm" >Original</a>';} ?>
 
@@ -50,9 +47,6 @@
 
     </div> <!-- col-md-12 end. -->
 
-    <div class="col-md-2">
-      &nbsp;
-    </div>
   </div> <!-- row end. -->
   <hr>
 </div> <!-- container end. -->

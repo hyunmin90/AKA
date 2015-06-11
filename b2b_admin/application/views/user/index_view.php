@@ -1,11 +1,7 @@
-<div class="container coupon-list-top-margin">
+<div class="container coupon-list-top-margin userindex">
 
-  <div class="row">
-    <div class="col-md-2">
-      &nbsp;
-    </div>
-    
-    <div class="col-md-8">
+  <div class="row">    
+    <div class="col-xs-12">
       <table class="table table-hover coupon-top-margin">
            <thead>
               <tr>
@@ -15,7 +11,7 @@
                 <th class="text-center" style="width:200px;">Personal Page</th>
               </tr>
             </thead>
-            <tbody id="close_body">
+            <tbody id="close_body" class='detail_body'>
               <?php
               foreach ($data as $key => $value) 
               {
@@ -32,9 +28,6 @@
 
     </div> <!-- col-md-12 end. -->
 
-    <div class="col-md-2">
-      &nbsp;
-    </div>
   </div> <!-- row end. -->
   <hr>
 </div> <!-- container end. -->

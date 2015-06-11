@@ -1,3 +1,5 @@
+
+
 /*Main top nav-bar*/
 
 button
@@ -145,6 +147,7 @@ span.glyphicon.glyphicon-cog
   border-color:#d6d6d6;
   border-bottom-width: 1px;
 }
+
 
 .btn-coupon-login 
 { 
@@ -518,6 +521,12 @@ body > div.container.admin-container > div:nth-child(1) > div > div > div > div 
   margin-bottom: 40px;
 }
 
+#bootstrap-duallistbox-nonselected-list_member > option
+{
+  color:black!important;
+
+}
+
 
 #startdatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(2),#duedatepickid > div > div > div.datepicker-days > table > thead > tr:nth-child(2)
 {
@@ -765,7 +774,17 @@ body > div.container.admin-container > div:nth-child(1) > div > div > div > div 
 
 body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box1.col-md-6 > div.btn-group.buttons > button.btn.moveall.btn-default,body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box1.col-md-6 > div.btn-group.buttons > button.btn.move.btn-default,body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box2.col-md-6 > div > button.btn.remove.btn-default,body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box2.col-md-6 > div > button.btn.removeall.btn-default
 {
-  background-color:rgb(225, 225, 226);
+  background-color:white;
+  border-right-style: solid;
+  border-radius: 0px!important;
+}
+body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box1.col-md-6 > div.btn-group.buttons > button.btn.moveall.btn-default,body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box2.col-md-6 > div > button.btn.remove.btn-default,body > div > div.row > div > div.col-xs-12 > div > div > div > div.box1.col-md-6 > div.btn-group.buttons > button.btn.moveall.btn-default,body > div > div.row > div > div.col-xs-12 > div > div > div > div.box2.col-md-6 > div > button.btn.remove.btn-default
+{
+  border-top-left-radius: 8px!important;
+}
+body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box1.col-md-6 > div.btn-group.buttons > button.btn.move.btn-default,body > div.container.admin-container > div:nth-child(1) > div > div > div > div > div > div.box2.col-md-6 > div > button.btn.removeall.btn-default,body > div > div.row > div > div.col-xs-12 > div > div > div > div.box1.col-md-6 > div.btn-group.buttons > button.btn.move.btn-default,body > div > div.row > div > div.col-xs-12 > div > div > div > div.box2.col-md-6 > div > button.btn.removeall.btn-default
+{
+  border-top-right-radius: 8px!important;
 }
 
 .datepicker table tr td.active,
@@ -808,13 +827,28 @@ body > div.container.admin-container > div:nth-child(1) > div > div > div > div 
   font-weight: bold;
   margin-left:9rem;
 }
+#update-startlabel
+{
+  font-size: 14px;
+  color: #393939;
+  font-weight: bold;
+  margin-left:100px;
+}
 #closelabel
 {
   font-size: 14px;
   color: #393939;
   font-weight: bold;
-  margin-left: 22rem;;
+  margin-left: 30rem;
 }
+#update-closelabel
+{
+  font-size: 14px;
+  color: #393939;
+  font-weight: bold;
+  margin-left: 214px;;
+}
+
 #fm > div:nth-child(6) > div.col-xs-3
 {
   margin-left: 1rem;
@@ -823,5 +857,72 @@ body > div.container.admin-container > div:nth-child(1) > div > div > div > div 
 .form-control
 {
   border-radius:0px;
+}
+
+
+/*Users detail page*/
+body > div.container.coupon-list-top-margin > div > div > table > thead > tr > th
+{
+  border-color:#f1f1f1;
+}
+
+#page
+{
+  background-color: #f05c6f;
+  border-color: #c4263a;
+  font-size: 13px;
+  height: 22px;
+  width: 88px;
+  line-height: 1px;
+
+}
+.detail_body > tr
+{
+  height:40px
+}
+.detailview,.userindex
+{
+  margin-top:110px;
+}
+
+.detail_body > tr:nth-child(3) > td > span
+{
+  margin-right:4px;
+}
+
+body > div.container.coupon-list-top-margin.detailview > div > div > table > thead > tr > th:nth-child(5)
+{
+  width:103px!important;
+
+}
+
+.detail_body > tr > td > span
+{
+  color: rgba(40, 189, 166, 0.87);
+  font-size: 17px;
+  line-height: 37px!important;
+}
+
+.detail_body > tr > td
+{
+  line-height:37px!important;
+}
+body > div.container.coupon-list-top-margin.detailview > div > div > table > thead > tr > th:nth-child(6)
+{
+  width:200px!important;
+}
+body > div.container.coupon-list-top-margin.detailview > div > div > table > thead > tr > th:nth-child(2)
+{
+  width:80px!important;
+
+}
+.glyphicon-ok-circle
+{
+  padding-right:4px;
+}
+.unsubmitted
+{
+  padding-right:10px;
+
 }
 
